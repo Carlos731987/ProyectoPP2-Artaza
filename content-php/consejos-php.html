@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Mascota-Consejos PHP</title>
+    <link rel="icon" href="Images/Icono.png">
+    <link rel="stylesheet" href="./estilos/estilos.css">
+    <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                background-image: url('/Fondo-login.png');
+                background-repeat: no-repeat;
+                background-size: 100% 100vh;
+            }
+            .sobrenosotros-titulo_encabezado{
+                padding: 20px 0;
+                background-size: contain;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                color: rgb(185, 143, 112);
+            }
+            .sobrenosotros-titulo_encabezado :hover{
+                color: #fcba05;
+            }
+            .Index-parrafo p{
+                color: rgb(85, 66, 52);
+                text-align: center;
+                background-color:rgb(231, 171, 58) ;
+                padding: 30px;
+            }
+    </style>
+</head>
+
+<body>
+    <header class="sobrenosotros-titulo">
+        <div class="sobrenosotros-titulo_encabezado">
+            <h1><i>Consejos PHP</i></h1>
+        </div>
+    </header>
+    <div class="Index-parrafo">
+        <p><i><b>Aquí encontraras algunos tips para tus primeros pasos en php</b></p></i>
+    </div>
+    <article>
+        <p>Para conocer como trabajar con variables</p>
+        <a href="./variables.php">Variables</a>
+    </article>
+    <article>
+        <p>Para conocer como trabajar con comentarios</p>
+        <a href="./comentarios.php">Comentarios</a>
+    </article>
+    <article>
+        <p>Para conocer como trabajar con constantes</p>
+        <a href="./constantes.php">Constantes</a>
+    </article>
+</body>
+
+</html>
